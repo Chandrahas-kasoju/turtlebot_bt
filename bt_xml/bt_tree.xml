@@ -1,0 +1,8 @@
+<root BTCPP_format="4"> 
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <Action ID="Use_nav2" goal_x="1.0" goal_y="1.0" goal_z="0.0"/>
+            <Action ID="Rotate" inp_vel="1.0"/>
+        </Sequence>
+    </BehaviorTree>
+</root>
