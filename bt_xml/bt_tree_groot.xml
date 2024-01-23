@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="MainTree">
+        <Sequence>
+            <Action ID="Use_nav2" goal_x="1.0" goal_y="1.0" goal_z="0.0"/>
+            <Action ID="Rotate" inp_vel="1.0"/>
+        </Sequence>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="Rotate">
+            <inout_port name="inp_vel"/>
+        </Action>
+        <Action ID="Use_nav2">
+            <inout_port name="goal_x"/>
+            <inout_port name="goal_y"/>
+            <inout_port name="goal_z"/>
+        </Action>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>

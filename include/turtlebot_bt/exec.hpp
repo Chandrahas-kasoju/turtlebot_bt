@@ -6,10 +6,10 @@
 #include <vector>
 #include <chrono>
 #include <functional>
-#include "behaviortree_cpp/behavior_tree.h"
-#include "behaviortree_cpp/bt_factory.h"
-#include "behaviortree_cpp/action_node.h"
-#include "behaviortree_cpp/tree_node.h"
+#include "behaviortree_cpp_v3/behavior_tree.h"
+#include "behaviortree_cpp_v3/bt_factory.h"
+#include "behaviortree_cpp_v3/action_node.h"
+#include "behaviortree_cpp_v3/tree_node.h"
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "geometry_msgs/msg/twist.hpp"
